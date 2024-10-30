@@ -12,7 +12,7 @@ interface Props {
   className?: string;
 }
 
-const WITH_BALANCE = { available: true, bonded: false, free: false, locked: false, reserved: false, total: false };
+const WITH_BALANCE = { available: true, bonded: true, free: false, locked: false, reserved: false, total: true };
 
 function Balances ({ address, className }: Props): React.ReactElement<Props> | null {
   const { t } = useTranslation();

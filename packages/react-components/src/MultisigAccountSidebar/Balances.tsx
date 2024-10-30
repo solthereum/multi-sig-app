@@ -12,7 +12,7 @@ interface Props {
 }
 
 // const WITH_BALANCE = { available: true, bonded: true, free: true, locked: true, reserved: true, total: true };
-const WITH_BALANCE = { total: false, locked: false, available: true };
+const WITH_BALANCE = { available: true, bonded: true, free: true, locked: true, reserved: true, total: true };
 
 function Balances ({ address, className }: Props): React.ReactElement<Props> | null {
 

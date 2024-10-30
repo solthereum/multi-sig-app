@@ -78,11 +78,11 @@ type TFunction = (key: string, options?: { replace: Record<string, unknown> }) =
 
 const DEFAULT_BALANCES: BalanceActiveType = {
   available: true,
-  bonded: false,
+  bonded: true,
   locked: false,
   redeemable: false,
   reserved: false,
-  total: false,
+  total: true,
   unlocking: false,
   vested: false
 };
